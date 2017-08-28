@@ -18,7 +18,7 @@ public class Movie {
 	@Column(length=300, nullable=false)
 	private String title;
 	
-	private Date date;
+	private Date releaseDate;
 	
 	private Long budget;
 
