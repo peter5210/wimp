@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.libertymutual.goforcode.wimp.models.Actor;
 import com.libertymutual.goforcode.wimp.repositories.ActorRepository;
 
-@RequestMapping("/api/actor")
+@RequestMapping("/api/actors")
 @RestController
 public class ActorApiController {
 
