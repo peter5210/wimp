@@ -1,8 +1,8 @@
 package com.libertymutual.goforcode.wimp.models;
 
-import java.sql.Date;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -89,7 +89,7 @@ public class Actor {
 	}
 	
 	public void addAward(Award award) {
-		if (award == null) {
+		if (awards == null) {
 			awards = new ArrayList<Award>();
 		}
 		awards.add(award);
